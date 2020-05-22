@@ -1,0 +1,78 @@
+<html>
+<head>
+<title> calculator </title>
+</head>
+<body>
+<h1>KHUSHALI MEHTA 170410116041</h1><hr>
+<form name="f1">
+ENTER NO 1: <input type="text" name="b1"/ ><br>
+ENTER NO 2: <input type="text" name="b2"/><br>
+ANS: <input type="text" name="b3"/><br>
+
+<input type="button" name="abt" value="ADDITION" onclick="add()">
+
+<input  type="button" name="sbt" value="SUBTRACT" onclick="sub()"/>
+
+<input  type="button" name="mbt" value="MULTIPLY" onclick="mul()"/>
+
+<input  type="button" name="dbt" value="DIVISION" onclick="div()"/>
+
+<input  type="button" name="mobt" value="MODULO" onclick="mod()"/>
+
+</form>
+
+<script>
+
+function add()
+{
+
+var a=Number(f1.b1.value);
+var b=Number(f1.b2.value);
+
+var c=a+b;
+f1.b3.value=c;
+}
+
+function sub()
+{
+var a=Number(f1.b1.value);
+var b=Number(f1.b2.value);
+
+var c=a-b;
+f1.b3.value=c;
+
+}
+
+function mul()
+{
+
+var a=Number(f1.b1.value);
+var b=Number(f1.b2.value);
+
+var c=a*b;
+f1.b3.value=c;
+}
+
+function mod()
+{
+
+var a=Number(f1.b1.value);
+var b=Number(f1.b2.value);
+
+var c=a%b;
+f1.b3.value=c;
+}
+
+function div()
+{
+
+var a=Number(f1.b1.value);
+var b=Number(f1.b2.value);
+
+var c=a/b;
+f1.b3.value=c;
+}
+</script>
+
+</body>
+</html>
