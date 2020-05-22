@@ -1,0 +1,186 @@
+.hotel {
+    height: 50%;
+    width: 100%;
+    image-resolution: inherit;
+}
+
+.caption {
+  
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  color: white;
+}
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    
+  }
+
+  a:hover{
+      color: lightsalmon;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    color: lightsalmon;   
+  }
+
+  .cap2 {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    color: white;
+    font-size: xx-large;
+  
+  }
+
+ .text-block {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .text-block2 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+    background-color: white;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }
+
+  .photo{
+    height: 100%;
+    width: 50%;
+    top: -5px;
+    position: relative;
+    
+  }
+
+  .side-text {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+  }
+
+  .block {
+    width: 50%;
+    top: -30.75rem;
+    left:50%;
+    position: relative;
+    background-color: lightslategrey;
+    padding-bottom: 7.9rem;
+
+  }
+
+
+  .side-text2{
+    font-size: larger;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: white;
+  }
+
+  .mid1 {
+    position: absolute;
+    top: 84.3rem;
+    left: 0rem;
+    background-color: lightgreen;
+    padding-bottom: 22rem;
+    padding-right: 28.1rem;
+    
+  }
+
+  .mid2 {
+    position: absolute;
+    top: 84.3rem;
+    left: 28rem;
+    background-color: lightsalmon;
+    padding-bottom: 22rem;
+    padding-right: 28.1rem;
+  }
+
+  .mid3 {
+    position: absolute;
+    top: 84.3rem;
+    left: 56.1rem;
+    background-color: lightgreen;
+    padding-bottom: 22rem;
+    padding-right: 28.2rem;
+  }
+
+  .logo{
+    position: absolute;
+      top: 2rem;
+      left: 10.05rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 50%; 
+      height: 28%; 
+      width: 25%;
+  }
+
+
+  .deet1 {
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+  }
+
+  .deet2{
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    position: absolute;
+    top: 8rem;
+    left: 10rem;
+  }
+
+  .info1{
+    font-size: large;
+    position: absolute;
+    top: 12rem;
+    padding-left: 70pt;
+    padding-right: 70pt;
+  }
+
+  .foot{
+    position: absolute;
+    top:106.29rem;
+    left: 0rem;
+    background-color:gray;
+    padding-bottom: 8rem;
+    padding-right:84.3rem;
+  }
+
+  .foot-info{
+    position: absolute;
+    left: 23rem;
+    top: auto;
+    font-size: xx-large;
+    color: white;
+    font-weight: bold;
+  }
+  
